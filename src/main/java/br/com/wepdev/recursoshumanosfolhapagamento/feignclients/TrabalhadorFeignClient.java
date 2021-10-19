@@ -7,8 +7,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+/**
+ * O projeto Trabalhador pode ter varias portas
+ */
 @Component // Componente gerenciado pelo Spring
-@FeignClient(name = "recursos-humanos-trabalhadores", url = "localhost:8001", path = "/trabalhadores")
+@FeignClient(name = "recursos-humanos-trabalhadores", path = "/trabalhadores")
 public interface TrabalhadorFeignClient {
 
 
