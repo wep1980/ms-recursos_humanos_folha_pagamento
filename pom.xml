@@ -12,7 +12,7 @@
     <artifactId>recursos-humanos-folha-pagamento</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>folha pagamento</name>
-    <description>Folha pagamento Micros servi~cos</description>
+    <description>Folha pagamento Micros serviços</description>
 
     <properties>
         <java.version>11</java.version>
